@@ -45,7 +45,7 @@ int solution(vector<int> queue1, vector<int> queue2) {
             sum2 -= tmp;
             answer++;
         }
-        if(answer > queue1.size() * queue2.size()){
+        if(answer > queue1.size() * 4){
             return -1;
         }
     }
